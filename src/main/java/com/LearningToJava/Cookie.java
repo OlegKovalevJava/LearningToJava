@@ -12,12 +12,13 @@ public class Cookie {
     private void sharpenBlade() {
         System.out.println("Точим меч");
     }
+
     private void getFood() {
         System.out.println("Собираем консервы");
     }
+
     private void assembleTeam() {
         System.out.println("Будим оруженосца");
     }
-
 
 }

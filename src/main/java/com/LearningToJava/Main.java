@@ -5,8 +5,4 @@ public class Main {
 
 
     }
-
-    public static void goPrivetMir() {
-        System.out.println("privet Mir !!!!!");
-    }
 }

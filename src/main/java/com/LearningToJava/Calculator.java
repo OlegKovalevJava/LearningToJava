@@ -21,22 +21,13 @@ public class Calculator {
 
         if (operation == '+') {
             System.out.println(numOne + numTwo);
-        }
-
-        if (operation == '-') {
+        } else if (operation == '-') {
             System.out.println(numOne - numTwo);
-        }
-
-        if (operation == '/') {
+        } else if (operation == '/') {
             System.out.println(numOne / numTwo);
-        }
-
-        if (operation == '*') {
+        } else if (operation == '*') {
             System.out.println(numOne * numTwo);
-        }
-
-        System.out.println("NOOOOO");
-
+        } else System.out.println("NO");
     }
 
 }

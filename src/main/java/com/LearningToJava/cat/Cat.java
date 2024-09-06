@@ -15,6 +15,7 @@ public class Cat {
         this.weight = weight;
         this.age = age;
         this.color = color;
+        name = "неизвестно";
     }
 
     public Cat(double weight, int age, String color, String name) {
@@ -24,4 +25,10 @@ public class Cat {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return "Cat" + "weight - " + weight + ", age - " + age + ", color ='" + color + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

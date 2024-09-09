@@ -2,9 +2,11 @@ package com.LearningToJava;
 
 public class Main {
     public static void main(String[] args) {
+        Balance balanceTest = new Balance();
 
-        String s1 = "Java!";
-        String s2 = "Java!";
-        System.out.println();
+        balanceTest.addLeft(100);
+        balanceTest.addRight(1000);
+        System.out.println(balanceTest.getSituation());
     }
+
 }

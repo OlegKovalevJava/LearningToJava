@@ -27,8 +27,7 @@ public class Cat {
 
     @Override
     public String toString() {
-        return "Cat" + "weight - " + weight + ", age - " + age + ", color ='" + color + '\'' +
-                ", name='" + name + '\'' +
-                '}';
+        return "Cat: " + "weight - " + weight + ", age - " + age + ", " +
+                "color - " + color + ", name - " + name;
     }
 }

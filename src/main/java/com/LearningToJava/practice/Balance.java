@@ -1,4 +1,4 @@
-package com.LearningToJava;
+package com.LearningToJava.practice;
 
 public class Balance {
 

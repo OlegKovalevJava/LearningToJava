@@ -1,13 +1,14 @@
 package com.LearningToJava.practice;
 
 public class Bell {
-
     Boolean ding = true;
 
-    void sound() {
+    public void sound() {
         if (ding) {
             System.out.println("ding");
-        } else {
+        }
+
+        if (!ding) {
             System.out.println("dong");
         }
 

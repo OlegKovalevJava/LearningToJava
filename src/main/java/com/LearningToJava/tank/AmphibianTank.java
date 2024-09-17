@@ -2,8 +2,9 @@ package com.LearningToJava.tank;
 
 public class AmphibianTank extends Tank {
 
-    @Override
-    public void soUp() {
-        super.soUp();
+    int a = 1;
+
+    public int getA() {
+        return a;
     }
 }

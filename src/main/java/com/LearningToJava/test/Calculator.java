@@ -1,4 +1,4 @@
-package com.LearningToJava;
+package com.LearningToJava.test;
 
 import java.util.Scanner;
 

@@ -3,14 +3,9 @@ package com.LearningToJava.animal;
 public class Main {
     public static void main(String[] args) {
 
-        Cat tom = new Cat(10.0, 10, "Black", "Tom");
-        System.out.println(tom);
+        Soundable soundable = () -> System.out.println("sound");
 
-        tom.changeWeightOfAnimal(-10.1);
-        System.out.println(tom);
-
-        System.out.println(tom.getWeight());
-
+        soundable.sound();
 
     }
 }

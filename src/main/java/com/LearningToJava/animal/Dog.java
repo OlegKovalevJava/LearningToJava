@@ -1,15 +1,15 @@
 package com.LearningToJava.animal;
 
-public class Cat extends Animal implements Soundable {
+public class Dog extends Mammal implements Soundable {
 
     @Override
     public void print() {
-        super.print();
+        System.out.println("DOG");
     }
 
     @Override
     public void sound() {
-        System.out.println("CAT");
+        System.out.println("Bark!");
     }
 
     @Override
@@ -17,4 +17,6 @@ public class Cat extends Animal implements Soundable {
         return "Cat: " + "weight - " + weight + ", age - " + age + ", " +
                 "color - " + color + ", name - " + name;
     }
+
+
 }

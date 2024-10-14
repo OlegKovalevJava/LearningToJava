@@ -8,9 +8,7 @@ public class Main {
 
         tVset.getRemote().turnOff();
 
-
-
-
+        System.out.println(Math.abs(-10));
 
     }
 }

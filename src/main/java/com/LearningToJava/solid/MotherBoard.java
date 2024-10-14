@@ -1,7 +1,6 @@
 package com.LearningToJava.solid;
 
 public class MotherBoard {
-    // static nested class
     static class USB {
         public static String wikilink = "https://en.wikipedia.org/wiki/USB";
         int usb2;

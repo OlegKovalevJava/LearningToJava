@@ -1,4 +1,4 @@
-package com.LearningToJava.test;
+package com.LearningToJava;
 
 public class Test {
     public static void main(String[] args) {

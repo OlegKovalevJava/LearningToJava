@@ -1,13 +1,13 @@
 package com.LearningToJava.test;
 
-import java.util.Calendar;
+import java.io.File;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Calendar calendar = Calendar.getInstance();
-        System.out.println(calendar.get(Calendar.ERA));
+        File file = new File("C:\\Test", "Test.txt");
+        System.out.println(file.exists());//true
     }
 
 }

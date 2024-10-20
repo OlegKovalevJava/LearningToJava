@@ -1,17 +1,12 @@
 package com.LearningToJava.test;
 
 import java.io.File;
-import java.util.Arrays;
+import java.io.IOException;
 
 public class Main {
-
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws IOException {
         File file = new File("C:\\Test");
         String[] files = file.list();
-
-        System.out.println(Arrays.toString(files));
-
+        System.out.println(files.length);
     }
-
 }

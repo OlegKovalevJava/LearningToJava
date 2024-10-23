@@ -1,4 +1,4 @@
-package com.LearningToJava.test;
+package com.LearningToJava;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,4 +9,5 @@ public class Main {
         String[] files = file.list();
         System.out.println(files.length);
     }
+
 }

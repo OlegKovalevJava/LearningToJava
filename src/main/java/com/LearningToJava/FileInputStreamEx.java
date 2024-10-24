@@ -17,4 +17,5 @@ public class FileInputStreamEx {
         System.out.println();
 
     }
+
 }

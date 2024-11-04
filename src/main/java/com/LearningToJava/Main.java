@@ -1,28 +1,27 @@
 package com.LearningToJava;
 
-import java.io.*;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
-import java.util.Collection;
+import java.util.ArrayDeque;
+import java.util.Queue;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        copyFileUsingStream(new File("src/win1251.txt"),
-                Charset.forName("windows-1251"),
-                new File("src/utf8.txt")
-        );
-    }
+    public static void main(String[] args) {
+        int numberOfTasks = 5;
 
-    private static void copyFileUsingStream(File source, Charset sourceEnc, File dest) throws IOException {
-        Reader fis = new FileReader(String.valueOf(sourceEnc));
-        Writer fos = new FileWriter(String.valueOf(StandardCharsets.UTF_8));
-        char[] buffer = new char[1024];
-        int length;
-        while ((length = fis.read(buffer)) > 0) {
-            fos.write(buffer, 0, length);
+        Queue toDoQueue = new ArrayDeque(numberOfTasks);
+
+        Boss boss = new Boss(toDoQueue);
+
+        Worker worker = new Worker(toDoQueue);
+
+        for (int i = 1; i <= numberOfTasks; i++) {
+            boss.giveTask("Задание " + i);
         }
-        fis.close();
-        fos.close();
-        
+
+        System.out.println("Начальник закончил давать задания");
+
+
+        for (int i = 1; i <= numberOfTasks + 1; i++) {
+            worker.takeTask();
+        }
     }
 }

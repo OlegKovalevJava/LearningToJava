@@ -1,27 +1,10 @@
 package com.LearningToJava;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
-
 public class Main {
     public static void main(String[] args) {
-        int numberOfTasks = 5;
 
-        Queue toDoQueue = new ArrayDeque(numberOfTasks);
+        Day current = Day.MONDAY;
+        System.out.println(current);    // MONDAY
 
-        Boss boss = new Boss(toDoQueue);
-
-        Worker worker = new Worker(toDoQueue);
-
-        for (int i = 1; i <= numberOfTasks; i++) {
-            boss.giveTask("Задание " + i);
-        }
-
-        System.out.println("Начальник закончил давать задания");
-
-
-        for (int i = 1; i <= numberOfTasks + 1; i++) {
-            worker.takeTask();
-        }
     }
 }

@@ -1,3 +1,4 @@
-public class Test {
+public class Test extends Exception
+{
 
 }

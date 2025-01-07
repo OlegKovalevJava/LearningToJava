@@ -19,6 +19,6 @@ public class Test {
 
     @Override
     public String toString() {
-        return "Test : age=" + age + ", FIO = " + FIO + ", balance=" + balance;
+        return "Test : age =" + age + ", FIO = " + FIO + ", balance =" + balance;
     }
 }

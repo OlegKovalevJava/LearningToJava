@@ -7,4 +7,8 @@ public class Apple {
     public long id() {
         return id;
     }
+
+    public void say() {
+        System.out.println("ЯБЛОКО");
+    }
 }

@@ -19,5 +19,8 @@ public class Main {
         for (Gerbil c : gerbils) {
             c.hop();
         }
+
+        Apple apple = new Gala();
+        apple.say();
     }
 }

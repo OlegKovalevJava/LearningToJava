@@ -13,8 +13,6 @@ public class Main {
         print(fill(new TreeMap<String, String>()));
         print(fill(new LinkedHashMap<String, String>()));
 
-
-
     }
 
     static Collection fill(Collection<String> collection) {

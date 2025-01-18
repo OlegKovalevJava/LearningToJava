@@ -28,7 +28,6 @@ public class Main {
         map.put("Крыса", "Анфиса");
         map.put("Кот", "Мурка");
         map.put("Собака", "Шарик");
-        map.put("Собака", "Бобик");
 
         return map;
     }

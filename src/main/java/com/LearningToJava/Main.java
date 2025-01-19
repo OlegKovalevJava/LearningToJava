@@ -32,6 +32,10 @@ public class Main {
         return map;
     }
 
+    static SortedMap fill(TreeMap<Integer, String> treeMap) {
+        return treeMap;
+    }
+
     static void print(Collection collection) {
         System.out.println(collection);
     }

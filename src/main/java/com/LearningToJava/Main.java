@@ -36,6 +36,10 @@ public class Main {
         return treeMap;
     }
 
+    static List<Person> fill(List<Person> personList) {
+        return personList;
+    }
+
     static void print(Collection collection) {
         System.out.println(collection);
     }

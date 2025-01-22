@@ -9,10 +9,6 @@ public class Main {
         print(fill(new HashSet<String>()));
         print(fill(new TreeSet<String>()));
         print(fill(new LinkedHashSet<String>()));
-        print(fill(new HashMap<String, String>()));
-        print(fill(new TreeMap<String, String>()));
-        print(fill(new LinkedHashMap<String, String>()));
-
     }
 
     static Collection fill(Collection<String> collection) {
@@ -24,19 +20,13 @@ public class Main {
         return collection;
     }
 
-    static Map fill(Map<String, String> map) {
-        map.put("Крыса", "Анфиса");
-        map.put("Кот", "Мурка");
-        map.put("Собака", "Шарик");
-
+    static Map fill(Map<Person, Shop> map) {
         return map;
     }
 
     static SortedMap fill(TreeMap<Integer, String> treeMap) {
         return treeMap;
     }
-
-
 
     static List fill(List<Person> personList) {
         return personList;
@@ -45,8 +35,6 @@ public class Main {
     static List<Person> fill(List<Person> personList, List<Person> personList2) {
         return personList;
     }
-
-
 
     static void print(Collection collection) {
         System.out.println(collection);

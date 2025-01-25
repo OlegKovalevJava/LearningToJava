@@ -1,47 +1,7 @@
 package com.LearningToJava;
 
-import java.util.*;
-
 public class Main {
     public static void main(String[] args) {
-        print(fill(new ArrayList<String>()));
-        print(fill(new LinkedList<String>()));
-        print(fill(new HashSet<String>()));
-        print(fill(new TreeSet<String>()));
-        print(fill(new LinkedHashSet<String>()));
+
     }
-
-    static Collection fill(Collection<String> collection) {
-        collection.add("rot");
-        collection.add("cat");
-        collection.add("map");
-        collection.add("hack");
-
-        return collection;
-    }
-
-    static Map fill(Map<Person, Shop> map) {
-        return map;
-    }
-
-    static SortedMap fill(TreeMap<Integer, String> treeMap) {
-        return treeMap;
-    }
-
-    static List fill(List<Person> personList) {
-        return personList;
-    }
-
-    static List<Person> fill(List<Person> personList, List<Person> personList2) {
-        return personList;
-    }
-
-    static void print(Collection collection) {
-        System.out.println(collection);
-    }
-
-    static void print(Map map) {
-        System.out.println(map);
-    }
-
 }

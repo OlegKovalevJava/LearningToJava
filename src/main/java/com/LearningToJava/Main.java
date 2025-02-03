@@ -1,13 +1,14 @@
 package com.LearningToJava;
 
-import java.util.ArrayList;
+import java.math.BigDecimal;
 
 public class Main {
     public static void main(String[] args) {
 
-        var str = "word";
+        User user = new User(5, "fot", new BigDecimal("999.7"));
 
-        var stringsList = new ArrayList<>();
+        System.out.println(user);
+
 
     }
 }

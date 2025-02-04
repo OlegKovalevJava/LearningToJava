@@ -17,11 +17,6 @@ public class User {
         this.balance = balance;
     }
 
-    public User(int id, String name, BigDecimal balance, int age) {
-        this(id, name,balance);
-        age = 10;
-    }
-
     @Override
     public String toString() {
         return "User{" +

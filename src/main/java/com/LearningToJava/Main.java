@@ -1,10 +1,28 @@
 package com.LearningToJava;
 
+import java.sql.SQLData;
+import java.sql.SQLException;
+import java.sql.SQLInput;
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 
-        Palindrome p = new Palindrome();
+        SQLData sqlData = new SQLData() {
+            @Override
+            public String getSQLTypeName() throws SQLException {
+                return "";
+            }
 
-        System.out.println(p.isPalindrome(121));
+            @Override
+            public void readSQL(SQLInput stream, String typeName) throws SQLException {
+
+            }
+
+            @Override
+            public void writeSQL(SQLOutput stream) throws SQLException {
+
+            }
+        }
     }
 }

@@ -1,6 +1,6 @@
 package com.LearningToJava;
 
-class Solution1 {
+class MaxAscendingSum {
     public int maxAscendingSum(int[] nums) {
         int result = 0;
         int t = 0;

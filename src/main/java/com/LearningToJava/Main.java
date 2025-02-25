@@ -7,7 +7,5 @@ public class Main {
         StringBuffer stringBuffer = new StringBuffer("HelloStringBuffer");
         StringBuilder stringBuilder = new StringBuilder("HelloStringBuilder");
 
-
-
     }
 }

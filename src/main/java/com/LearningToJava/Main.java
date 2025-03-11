@@ -1,16 +1,16 @@
 package com.LearningToJava;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.StringJoiner;
 
 public class Main {
     public static void main(String[] args) {
 
-        Map<String, Integer> hash = new HashMap<>();
+        StringJoiner stringJoiner = new StringJoiner(" ");
 
-        Object object = new HashMap<>();
+        stringJoiner.add("Один");
+        stringJoiner.add("Два");
+        stringJoiner.add("Три");
 
-
-
+        System.out.println(stringJoiner);
     }
 }

@@ -1,16 +1,14 @@
 package com.LearningToJava;
 
-import java.util.StringJoiner;
+import java.util.ArrayList;
+import java.util.List;
 
-public class Main {
+public class Main<T> {
     public static void main(String[] args) {
 
-        StringJoiner stringJoiner = new StringJoiner(" ");
+    }
 
-        stringJoiner.add("Один");
-        stringJoiner.add("Два");
-        stringJoiner.add("Три");
-
-        System.out.println(stringJoiner);
+    public void go(){
+        List<T> list = new ArrayList<>();
     }
 }
